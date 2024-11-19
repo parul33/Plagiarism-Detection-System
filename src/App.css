@@ -1,0 +1,117 @@
+/* src/App.css */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7fb;  /* Light Gray background */
+    color: #333333;  /* Dark Gray text */
+  }
+  
+  /* Header Styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;  /* Dark Blue header */
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  header .logo img {
+    width: 100px;
+  }
+  
+  /* Main Section Styles */
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .upload-area {
+    background-color: white;  /* White background for upload area */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .upload-area h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  textarea, #file-upload {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3498db;  /* Vibrant Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;  /* Darker blue on hover */
+  }
+  
+  /* Results Section Styles */
+  .results {
+    margin-top: 30px;
+  }
+  
+  #plagiarism-result {
+    font-size: 18px;
+    color: #333333;
+    padding: 10px;
+    background-color: #e7e7e7;  /* Light Gray background for result */
+    border-radius: 5px;
+  }
+  
+  /* Footer Styles */
+footer {
+  background-color: black;  /* Changed to black */
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+  footer ul {
+    list-style: none;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  footer ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  

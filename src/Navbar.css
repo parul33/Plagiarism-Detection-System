@@ -1,0 +1,42 @@
+/* General styles for the Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+  }
+  
+  /* Logo placeholder */
+  .navbar-logo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; /* White color for logo text */
+  }
+  
+  /* Center title styling */
+  .navbar-center h1 {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  /* Right side (Login/Register) links */
+  .navbar-right {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+
+  
